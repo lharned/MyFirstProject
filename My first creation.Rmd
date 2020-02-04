@@ -1,0 +1,46 @@
+---
+title: "New Creation"
+author: "Liam Harned"
+date: "2/3/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is going to be awesome. I cant wait to show all my friends.
+
+```{r}
+# This is a comment.
+
+# Number of Rows
+
+nrow(mtcars)
+
+# Number of Columns
+
+ncol(mtcars)
+
+```
+```{r}
+summary(mtcars)
+```
+
+# My first r plot
+
+```{r}
+plot(mtcars$mpg,mtcars$hp,xlab="Miles Per Gallon",ylab="Horse Power")
+```
+
+This dataset has `r nrow(mtcars)` rows and `r ncol(mtcars)` columns
+
+
+
+
+```{r cars}
+summary(cars)
+```
+
